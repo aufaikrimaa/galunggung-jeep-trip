@@ -32,7 +32,7 @@ export default function Home() {
             {/* <div className="bg-yellow-600 p-1.5 rounded-lg group-hover:rotate-12 transition-transform">
               <Mountain className="h-6 w-6 text-black" />
             </div> */}
-            <img src={'/images/logo.png'} className="size-10"/>
+            <img src={'/images/logo.PNG'} className="size-10"/>
             <span className="font-syne font-bold text-xl tracking-tight">GALUNGGUNG JEEP TRIP</span>
           </div>
           
@@ -228,7 +228,7 @@ export default function Home() {
               {/* <div className="bg-yellow-600/10 p-6 rounded-full mb-8 animate-bounce">
                 <Mountain className="h-12 w-12 text-yellow-600" />
               </div> */}
-              <img src={'/images/logo.png'} className="size-20 mb-8 animate-bounce"/>
+              <img src={'/images/logo.PNG'} className="size-20 mb-8 animate-bounce"/>
               <h3 className="font-syne text-3xl font-bold mb-4 uppercase">READY FOR THE RIDE?</h3>
               <p className="text-gray-400 mb-10 max-w-sm">
                 Message us on WhatsApp for instant booking and specialized group rates.
@@ -248,7 +248,7 @@ export default function Home() {
             {/* <div className="bg-zinc-900 p-1 rounded">
               <Mountain className="h-4 w-4 text-yellow-600" />
             </div> */}
-            <img src={'/images/logo.png'} className="size-7"/>
+            <img src={'/images/logo.PNG'} className="size-7"/>
             <span className="font-syne font-bold text-sm tracking-tight">GALUNGGUNG JEEP TRIP</span>
           </div>
           <div className="text-xs text-zinc-500 font-bold uppercase tracking-widest">
