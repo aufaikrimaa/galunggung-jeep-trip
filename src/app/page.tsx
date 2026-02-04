@@ -54,7 +54,7 @@ export default function Home() {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/20 to-black z-10" />
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-emerald-500/10 via-transparent to-transparent opacity-50" />
-          <div className="w-full h-full bg-[url('https://images.unsplash.com/photo-1533560904424-a0c61dc306fc?q=80&w=2070')] bg-cover bg-center grayscale opacity-40 scale-105 animate-pulse-slow" />
+          <div className="w-full h-full bg-[url('/images/hero-img.jpeg')] bg-cover bg-center grayscale opacity-40 scale-105 animate-pulse-slow" />
         </div>
 
         <div className="relative z-20 max-w-5xl mx-auto px-6 text-center">
@@ -115,7 +115,7 @@ export default function Home() {
             <div className="relative group">
               <div className="aspect-[4/5] bg-zinc-900 rounded-2xl overflow-hidden grayscale hover:grayscale-0 transition-all duration-700">
                 <img 
-                  src="https://images.unsplash.com/photo-1533560904424-a0c61dc306fc?q=80&w=1000" 
+                  src="/images/photo.jpeg" 
                   alt="Jeep Adventure" 
                   className="w-full h-full object-cover scale-110 group-hover:scale-100 transition-transform duration-1000"
                 />
@@ -186,7 +186,7 @@ export default function Home() {
           {[1,2,3,4,5,6].map((i) => (
             <div key={i} className="w-[300px] h-[400px] bg-zinc-900 rounded-3xl overflow-hidden shrink-0 grayscale hover:grayscale-0 transition-all duration-500 cursor-pointer">
               <img 
-                src={`https://images.unsplash.com/photo-${1500000000000 + i * 100000}?auto=format&fit=crop&q=60&w=400`} 
+                src="/images/photo.jpeg"
                 alt="Gallery" 
                 className="w-full h-full object-cover"
               />
