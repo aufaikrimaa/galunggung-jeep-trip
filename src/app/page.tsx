@@ -59,11 +59,11 @@ export default function Home() {
         </div>
 
         <div className="relative z-20 max-w-5xl mx-auto px-6 text-center">
-          <h1 className="font-syne text-6xl md:text-9xl font-bold mb-8 leading-[0.9] tracking-tighter">
-            THE WILD <br /> 
-            <span className="text-yellow-600">EXPERIENCE</span>
+          <h1 className="font-syne text-[3.5rem] sm:text-6xl md:text-9xl font-bold mb-8 leading-[0.9] tracking-tighter">
+            THE REAL <br /> 
+            <span className="text-yellow-600">ADVENTURE</span>
           </h1>
-          <p className="font-outfit text-xl md:text-2xl text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
+          <p className="font-outfit text-lg sm:text-xl md:text-2xl text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
             Unleash the adrenaline. Explore the hidden paths of Gunung Galunggung with our premium offroad fleet.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -99,8 +99,8 @@ export default function Home() {
                 <span className="text-zinc-500 italic font-medium underline decoration-yellow-600/50">BRING THE VIBE.</span>
               </h2>
               <p className="font-outfit text-lg text-gray-400 mb-10 leading-relaxed max-w-xl">
-                Founded in 2019, we've been the pulse of Galunggung offroading. 
-                Our team of pro drivers doesn't just drive; they guide you through the soul of the mountain.
+                Founded in 2021, we've been the pulse of Galunggung offroading. 
+                Our team of pro drivers doesn't just drive, they guide you through the soul of the mountain.
               </p>
               <div className="grid grid-cols-2 gap-8">
                 <div>
@@ -114,7 +114,7 @@ export default function Home() {
               </div>
             </div>
             <div className="relative group">
-              <div className="aspect-[4/5] bg-zinc-900 rounded-2xl overflow-hidden grayscale hover:grayscale-0 transition-all duration-700">
+              <div className="aspect-[4/5] bg-zinc-900 rounded-2xl overflow-hidden opacity-50 hover:opacity-100 transition-all duration-700">
                 <img 
                   src="/images/photo.jpeg" 
                   alt="Jeep Adventure" 
@@ -184,8 +184,8 @@ export default function Home() {
         </div>
         
         <div className="flex gap-4 animate-scroll whitespace-nowrap">
-          {[1,2,3,4,5,6].map((i) => (
-            <div key={i} className="w-[300px] h-[400px] bg-zinc-900 rounded-3xl overflow-hidden shrink-0 grayscale hover:grayscale-0 transition-all duration-500 cursor-pointer">
+          {[1,2,3,4,5,6,7,8].map((i) => (
+            <div key={i} className="w-[300px] h-[400px] bg-zinc-900 rounded-3xl overflow-hidden shrink-0 opacity-40 hover:opacity-100 transition-all duration-500 cursor-pointer">
               <img 
                 src="/images/photo.jpeg"
                 alt="Gallery" 
