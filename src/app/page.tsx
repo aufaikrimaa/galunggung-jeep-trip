@@ -45,7 +45,7 @@ export default function Home() {
           </div>
 
           <Button asChild className="bg-white text-black hover:bg-yellow-600 hover:text-white transition-all rounded-full px-6">
-            <a href="https://wa.me/6282120225622">Book Now</a>
+            <a href="https://wa.me/6281224284181">Book Now</a>
           </Button>
         </div>
       </nav>
@@ -168,7 +168,7 @@ export default function Home() {
                   <span className="text-xs uppercase font-bold opacity-60">/ Jeep</span>
                 </div>
                 <Button asChild className={`w-full rounded-xl py-6 font-bold uppercase tracking-widest text-xs transition-all ${pkg.primary ? "bg-black text-white hover:bg-zinc-800" : "bg-white text-black hover:bg-yellow-600 hover:text-white"}`}>
-                  <a href={`https://wa.me/6282120225622?text=I'm interested in ${pkg.name}`}>Book Now</a>
+                  <a href={`https://wa.me/6281224284181?text=I'm interested in ${pkg.name}`}>Book Now</a>
                 </Button>
               </div>
             ))}
@@ -234,7 +234,7 @@ export default function Home() {
                 Message us on WhatsApp for instant booking and specialized group rates.
               </p>
               <Button asChild size="lg" className="w-full bg-white text-black hover:bg-yellow-600 hover:text-white font-black py-8 rounded-2xl text-lg">
-                <a href="https://wa.me/6282120225622">CHAT ON WHATSAPP</a>
+                <a href="https://wa.me/6281224284181">CHAT ON WHATSAPP</a>
               </Button>
             </div>
           </div>
