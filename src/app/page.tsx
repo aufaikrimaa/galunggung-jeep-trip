@@ -209,7 +209,7 @@ export default function Home() {
                   </div>
                   <div>
                     <div className="text-xs uppercase tracking-widest text-gray-500 font-bold mb-1">Basecamp</div>
-                    <div className="text-xl font-medium">Gunung Galunggung, Tasikmalaya</div>
+                    <div className="text-xl font-medium">Jl Ah Nasution No 288 Tasikmalaya</div>
                   </div>
                 </div>
                 <div className="flex items-center gap-6 group">
